@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "module": "ESNext",
+    "target": "es6",
+    "strict": true,
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
